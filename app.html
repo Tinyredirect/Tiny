@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scaleable=false">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  <title>TinyRedirect</title>
+</head>
+<style>
+  body{
+    background-color: #FFF;
+    height: 100vh;
+    width: 100vw;
+    padding:0px;
+    margin: 0px;
+    font-family: poppins;
+    overflow-y: hidden;
+  }
+  body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+}
+
+body {
+  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none;     /* Hide scrollbar for Firefox */
+}
+  header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  img[src$="menu.svg"]{
+    height: 30px;
+    width: 30px;
+  }
+  .logo{
+  height: 50px;
+  width: 120px;
+  }
+  .sect-1{
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    color: #333;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+  }
+  .card,.card-2{
+background-color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 12px;
+box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+text-align: center;
+color: #333;
+  }
+  .card-2{
+    margin-top: 12px;
+  }
+  .arrow{
+    height: 30px;
+    width: 30px;
+  }
+  .btn-btn{
+    display: flex;
+    padding: 3px;
+    text-align: center;
+    justify-content: center;
+    background-color: #0081FF;
+    color: #fff;
+    border-radius: 12px;
+  }
+  .tick{
+    height: 15px;
+    width:15px;
+  }
+  .features{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .image-eg{
+    border-radius: 12px;
+  }
+  .button-get-started{
+    
+    display: flex;
+    padding: 14px;
+    text-align: center;
+    justify-content: center;
+    background-color: #0081FF;
+    color: #fff;
+    border-radius: 12px;
+  }
+  .button-learn-more{
+display: flex;
+padding: 14px;
+text-align: center;
+justify-content: center;
+background-color: #fff;
+color: #0081FF;
+border-radius: 12px;
+border: 2px solid #0081FF;
+  }
+  hr{
+    
+    border: 0;
+      height: 2px;
+      background-color: #000;
+      margin: 0px 0
+  }
+  .bottom{
+    background-color: #1E90FF;
+    color:#fff;
+    padding-left:10px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    width: 104%;
+    border-top: 2px solid #000;
+  }
+  /*background-color: #0081FF;*/
+  a{
+    color: #fff;
+  }
+  .handles img{
+    height: 30px;
+    width: 30px;
+  }
+  .handles{
+    display: flex;
+    gap: 13px;
+  }
+</style>
+<body>
+  <header>
+    <img src="/svg/logo.jpeg" alt="logo.png" class="logo">
+    <button class="menu">
+      <img src="svg/menu.svg" alt="menu.svg">
+    </button>
+  </header>
+  <div class="sect-1">
+    <h2>
+      Strengthen your digital 
+        connections
+    </h2>
+    <p>
+      Use TinyRedirect to create short URLs, QR Codes, and landing pages that engage your audience and guide them to the right information. Easily build, edit, and track all your links in one seamless platform.
+    </p>
+  
+  <div class="card">
+    <h3>
+     Condense a lengthy URL.
+    </h3>
+    <button class="btn-btn" >
+      <p>Get started for free.</p>
+    </button>
+    <h3>
+      Sign up for free, no credit card required.
+    </h3>
+    <h4>Your free plan will include:</h4>
+    <div>
+      <div class="features">
+        <img src="/svg/tick.svg" alt="tick" class="tick">
+        <p>15 short links /month</p>
+      </div>
+       <div class="features">
+   <img src="/svg/tick.svg" alt="tick" class="tick">
+   <p>3 custom back halve/month </p>
+ </div>
+  <div class="features">
+   <img src="/svg/tick.svg" alt="tick" class="tick">
+   <p>unlimited link clicks </p>
+ </div>
+    </div>
+  </div>
+  <div class="card-2">
+    <h3>URL shortner</h3>
+    <img src="/svg/tinyredirect.comyour brand.png" alt="example image" class="image-eg">
+    <h3>URL shortner with more features</h3>
+    <h5> A comprehensive solution to help make every point of connection between your content and your audience more powerful.</h5>
+      <div class="features">
+    <img src="/svg/tick.svg" alt="tick" class="tick">
+    <p>URL redirects</p>
+  </div>
+  <div class="features">
+    <img src="/svg/tick.svg" alt="tick" class="tick">
+    <p>Analytics & data tracking</p>
+  </div>
+  <div class="features">
+    <img src="/svg/tick.svg" alt="tick" class="tick">
+    <p> URL shortening </p>
+  </div>
+  <button class="button-get-started">Get started now for free</button>
+  <h5>Or</h5>
+  <button class="button-learn-more">Learn more</button>
+  </div>
+  </div>
+  
+  <div class="bottom">
+    
+    <h4>Company</h4>
+    <a href=""><h6>About TinyRedirect</h6></a>
+     <a href=""><h6>Contact</h6></a>
+    <h4>Terms and agreements</h4>
+    <a href=""><h6>Privacy policy</h6></a>
+    <a href=""><h6>Cookie policy</h6></a>
+    <a href=""><h6>Terms of service</h6></a>
+    <hr>
+    <h1>TinyRedirect</h1>
+    <div class="handles">
+      <img src="/svg/fb-logo.svg" alt="">
+      <img src="/svg/ig.svg" alt="">
+      <img src="/svg/tw.svg" alt="">
+    </div>
+    <p>© 2024 Tinyredirect</p>
+  </div>
+</body>
+</html>
